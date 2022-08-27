@@ -1,37 +1,47 @@
 body {
     background: #BDBDBD;
     margin: 0;
+    flex-direction: column;
 }
+
 div{
     box-sizing: border-box;
 }
-header {
+
+.header {
     background: white;
-    padding: 10px;
+    padding: 1px;
+    height: auto;
+
 }
-header h1 {
-    margin: 0;
-}
+
 div.post {
     background: white;
     margin-top: 10px;
 }
-div.post {
+
+div.post img{
     width: 100%;
 }
-div.post .post-header div:first-child{
+
+div.post .post-header div:first-child {
     display: inline-block;
     width: 80%;
 }
-div.post .post-header div:last-child{
+
+div.post .post-header div:last-child {
     display: inline-block;
-    width: 20%;
-}
-div.post h2, div.post p{
+    width: 19%;
     padding: 10px;
-    margin; 0;
+    text-align: right;
 }
+
+div.post h2, div.post p {
+    padding: 10px;
+}
+
 div.container {
+    background-color: #ffffff;
     width: 600px;
     margin: auto;
 }
